@@ -24,6 +24,7 @@
     SOFTWARE.
 */
 
+
 * {
   -webkit-box-sizing: border-box;  /* Chrome, Safari, newer Opera */
           box-sizing: border-box;
@@ -31,12 +32,12 @@
 
 html {
   /* For browsers that do not support gradients */
-  background-color: #CC1911; 
+  background-color: #CC1911;       /* red */
   
   /* Gradient */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#CC1911), to(#01863A));  /* Chrome, Safari, newer Opera */
-  background-image: -o-linear-gradient(#CC1911, #01863A);                                         /* older Opera */
-  background-image: linear-gradient(#CC1911, #01863A);                                            /* red & green */
+  background-image:   -webkit-gradient(linear, left top, left bottom, from(#CC1911), to(#01863A));  /* Chrome, Safari, newer Opera */
+  background-image: -o-linear-gradient(#CC1911, #01863A);                                           /* older Opera */
+  background-image:    linear-gradient(#CC1911, #01863A);                                           /* red & green */
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -44,19 +45,19 @@ html {
 body {
   font-family: Geneva, Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 1.25em 1em;                                                                            /* top & bottom, right & left */
+  padding: 1.25em 1em;                                                                              /* top & bottom, right & left */
 }
 
 header {
   /* Gradient */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0E4727), to(#009241));  /* Chrome, Safari, newer Opera */
-  background-image: -o-linear-gradient(#0E4727, #009241);                                         /* older Opera */
-  background-image: linear-gradient(#0E4727, #009241);                                            /* dark-green & green */
+  background-image:   -webkit-gradient(linear, left top, left bottom, from(#0E4727), to(#009241));  /* Chrome, Safari, newer Opera */
+  background-image: -o-linear-gradient(#0E4727, #009241);                                           /* older Opera */
+  background-image:    linear-gradient(#0E4727, #009241);                                           /* dark-green & green */
   background-repeat: no-repeat;
-  border: 1px solid #FFFFFF;                                                                      /* white */
+  border:        1px solid #FFFFFF;                                                                 /* white */
   border-radius: 0.75em;
-  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);                                                 /* Chrome, Safari, newer Opera */
-          box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);                                                 /* black */
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);                                                   /* Chrome, Safari, newer Opera */
+          box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);                                                   /* black */
 }
 
 .logo {
@@ -64,17 +65,17 @@ header {
 }
 
 nav {
-  background-image: -webkit-gradient(linear, left top, right top, from(#4A0A0B), to(#CC1911));    /* Chrome, Safari, newer Opera */
-  background-image: -o-linear-gradient(left, #4A0A0B, #CC1911);                                   /* older Opera */
-  background-image: linear-gradient(to right, #4A0A0B, #CC1911);                                  /* dark-red & red */
-  border-color: #FFFFFF;                                                                          /* white */
-  border-radius: 0 0 0.75em 0.75em;                                                               /* top-left, top-right, bottom-right, bottom-left */
-  border-style: solid;
-  border-width: 0 1px 1px 1px;                                                                    /* top, right, bottom, left */
-  margin: 0 1em;                                                                                  /* top & bottom, right & left */
-  padding: 0 1em;                                                                                 /* top & bottom, right & left */
-  -webkit-box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.9);                                               /* Chrome, Safari, newer Opera */
-          box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.9);                                               /* black */
+  background-image: -webkit-gradient(linear, left top, right top, from(#4A0A0B), to(#CC1911));      /* Chrome, Safari, newer Opera */
+  background-image: -o-linear-gradient(left, #4A0A0B, #CC1911);                                     /* older Opera */
+  background-image: linear-gradient(to right, #4A0A0B, #CC1911);                                    /* dark-red & red */
+  border-color:  #FFFFFF;                                                                           /* white */
+  border-radius: 0 0 0.75em 0.75em;                                                                 /* top-left, top-right, bottom-right, bottom-left */
+  border-style:  solid;
+  border-width:  0 1px 1px 1px;                                                                     /* top, right, bottom, left */
+  margin:  0 1em;                                                                                   /* top & bottom, right & left */
+  padding: 0 1em;                                                                                   /* top & bottom, right & left */
+  -webkit-box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.9);                                                 /* Chrome, Safari, newer Opera */
+          box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.9);                                                 /* black */
 }
 
 /* Hide menu icon */
@@ -84,7 +85,7 @@ nav {
 /* Menu items */
 #page-nav ul {
   list-style-type: none;
-  margin: 0;
+  margin:  0;
   padding: 0;
 }
 #page-nav ul li {
@@ -97,7 +98,7 @@ nav {
   background-color: #E0463E;       /* bright red */
 }
 #page-nav ul li a {
-  color: #FFFFFF;                  /* white */
+  color:           #FFFFFF;        /* white */
   text-decoration: none;
 }
 
@@ -106,57 +107,57 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: #FFFFFF;                  /* white */
-  font-size: 1em;
+  color:           #FFFFFF;        /* white */
+  font-size:       1em;
   text-decoration: none;
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, right top, from(#4A0A0B), to(#CC1911));  /* Chrome, Safari, newer Opera */
-  background-image: -o-linear-gradient(left, #4A0A0B, #CC1911);                                 /* older Opera */
-  background-image: linear-gradient(to right, #4A0A0B, #CC1911);                                /* dark-red & red */
-  border-color: #FFFFFF;                                                                        /* white */
-  border-radius: 0 0 0.75em 0.75em;                                                             /* top-left, top-right, bottom-right, bottom-left */
-  border-style: solid;
-  border-width: 0 1px 1px 1px;                                                                  /* top, right, bottom, left */
-  margin: 0 1em;                                                                                /* top & bottom, right & left */
+  background-image:   -webkit-gradient(linear, left top, right top, from(#4A0A0B), to(#CC1911));  /* Chrome, Safari, newer Opera */
+  background-image: -o-linear-gradient(left, #4A0A0B, #CC1911);                                   /* older Opera */
+  background-image:    linear-gradient(to right, #4A0A0B, #CC1911);                               /* dark-red & red */
+  border-color:  #FFFFFF;                                                                         /* white */
+  border-radius: 0 0 0.75em 0.75em;                                                               /* top-left, top-right, bottom-right, bottom-left */
+  border-style:  solid;
+  border-width:  0 1px 1px 1px;                                                                   /* top, right, bottom, left */
+  margin: 0 1em;                                                                                  /* top & bottom, right & left */
   overflow: hidden;
-  padding: 0 1.5em;                                                                             /* top & bottom, right & left */
-  -webkit-box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.9);                                             /* Chrome, Safari, newer Opera */
-          box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.9);                                             /* black */
+  padding: 0 1.5em;                                                                               /* top & bottom, right & left */
+  -webkit-box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.9);                                               /* Chrome, Safari, newer Opera */
+          box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.9);                                               /* black */
   z-index: -1;
 }
 footer ul {
   list-style-type: none;
   float: right;
-  margin: 0;
+  margin:  0;
   padding: 0;
 }
 footer ul li {
   display: inline-block;
-  color: #FFFFFF;             /* white */
+  color:     #FFFFFF;                                /* white */
   font-size: 0.9em;
-  padding: 0.3em 1em;         /* top & bottom, right & left */
+  padding:   0.3em 1em;                              /* top & bottom, right & left */
 }
 
 video {
-  background-color: #000000;  /* black */
-  width: 70% !important;
+  background-color: #000000;                         /* black */
+  width:   70% !important;
   height: auto !important; 
 }
 
 article {
   margin-right: 0.5em;
-  padding: 0 1.5em 0 1.5em;   /* top, right, bottom, left */
+  padding:      0 1.5em 0 1.5em;                     /* top, right, bottom, left */
 }
 
 aside {
-  margin-left: 0.5em;
+  margin-left:   0.5em;
   padding-right: 1.5em;
 }
 
 aside img {
-  border: 0.75em solid #FFFFFF;                      /* white */
+  border:        0.75em solid #FFFFFF;               /* white */
   border-radius: 0.75em;
   -webkit-box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.6);  /* Chrome, Safari, newer Opera */
           box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.6);  /* black */
@@ -165,7 +166,7 @@ aside img {
 aside p {
   font-size: 0.7em;
   margin-top: 1em;
-  padding: 0;
+  padding:    0;
 }
 
 address {
@@ -193,9 +194,9 @@ th, td {
     "gallery gallery"
     "wave_bottom wave_bottom";
   background-color: #019241;                         /* green */
-  border: 1px solid #FFFFFF;                         /* white */
+  border:        1px solid #FFFFFF;                  /* white */
   border-radius: 0.75em;
-  color: #FFFFFF;                                    /* white */
+  color:  #FFFFFF;                                   /* white */
   margin: 1em 0 0 0;                                 /* top, right, bottom, left */
   -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);    /* Chrome, Safari, newer Opera */
           box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);    /* black */
@@ -220,7 +221,7 @@ th, td {
 }
 
 .gallery img {
-  border: 0.75em solid #FFFFFF;                      /* white */
+  border:        0.75em solid #FFFFFF;               /* white */
   border-radius: 0.75em;
   margin: 1.5em 1.5em 1.5em 1.5em;                   /* top, right, bottom, left */
   -webkit-box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.6);  /* Chrome, Safari, newer Opera */
@@ -233,8 +234,8 @@ th, td {
 
 .side_content {
   grid-area: aside;
-  -ms-grid-row: 2;                                   /* Internet Explorer, Microsoft Edge */
-      grid-row: 2;
+  -ms-grid-row:    2;                                /* Internet Explorer, Microsoft Edge */
+      grid-row:    2;
   -ms-grid-column: 2;                                /* Internet Explorer, Microsoft Edge */
       grid-column: 2;
   margin-top: 1.5em;
@@ -242,32 +243,32 @@ th, td {
 }
 
 .side_content_services {
-  background-image: -webkit-gradient(linear, left top, right top, from(#4A0A0B), to(#CC1911));  /* Chrome, Safari, newer Opera */
-  background-image: -o-linear-gradient(left, #4A0A0B, #CC1911);                                 /* older Opera */
-  background-image: linear-gradient(to right, #4A0A0B, #CC1911);                                /* dark-red & red */
-  border: 1px solid #FFFFFF;                                                                    /* white */
+  background-image:   -webkit-gradient(linear, left top, right top, from(#4A0A0B), to(#CC1911));  /* Chrome, Safari, newer Opera */
+  background-image: -o-linear-gradient(left, #4A0A0B, #CC1911);                                   /* older Opera */
+  background-image:    linear-gradient(to right, #4A0A0B, #CC1911);                               /* dark-red & red */
+  border:        1px solid #FFFFFF;                                                               /* white */
   border-radius: 0.75em;
-  color: #FFFFFF;                                                                               /* white */
-  float: right;
+  color:     #FFFFFF;                                                                             /* white */
   font-size: 0.9em;
-  margin: 1.5em 0 0 2em;                                                                        /* top, right, bottom, left */
+  float: right;
+  margin: 1.5em 0 0 2em;                                                                          /* top, right, bottom, left */
   text-align: left;
-  -webkit-box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.6);                                             /* Chrome, Safari, newer Opera */
-          box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.6);                                             /* black */
+  -webkit-box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.6);                                               /* Chrome, Safari, newer Opera */
+          box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.6);                                               /* black */
 }
 
 .side_content_services h5 {
-  margin: 1em 0 0 1.5em;                /* top, right, bottom, left */
+  margin: 1em 0 0 1.5em;                 /* top, right, bottom, left */
 }
 
 .side_content_services ul {
-  margin: 0.5em 1em 0.5em 0;            /* top, right, bottom, left */
+  margin: 0.5em 1em 0.5em 0;             /* top, right, bottom, left */
 }
 
 .credits {
-  color: #FFFFFF;                       /* white */
-  font-size: 0.8em;
-  padding: 0.2em 4.3em 1em 4.3em;       /* top, right, bottom, left */
+  color:      #FFFFFF;                   /* white */
+  font-size:  0.8em;
+  padding:    0.2em 4.3em 1em 4.3em;     /* top, right, bottom, left */
   text-align: right;
 }
 
@@ -280,9 +281,9 @@ th, td {
   /* Show menu icon */
   #page-nav label {
     display: inline-block;
-    color: #FFFFFF;                     /* white */
+    color:      #FFFFFF;                 /* white */
     font-style: normal;
-    padding: 0.2em 100% 0.2em 0.2em;    /* top, right, bottom, left */
+    padding:    0.2em 100% 0.2em 0.2em;  /* top, right, bottom, left */
   }
   /* Make menu items vertical */
   #page-nav ul li { 
@@ -292,6 +293,7 @@ th, td {
   #page-nav ul {
     display: none;
   }
+
   #page-nav input:checked ~ ul {
     display: block;
   }
@@ -330,12 +332,12 @@ div.cssbox {
 
 span.cssbox_full {
   background-color: rgba(0,0,0,0.8);
-  position: fixed;
-  width: 100%;
+  width:  100%;
   height: 100%;
   left: 0;
   opacity: 0;
   pointer-events: none;
+  position: fixed;
   top: 0;
   z-index: 999;
   -webkit-transition: opacity 0.5s linear;        /* Chrome, Safari, newer Opera */
@@ -344,18 +346,18 @@ span.cssbox_full {
 }
 
 span.cssbox_full img {
-  background-color: #FFFFFF;
-  border: none;                                   /* Remove border */
+  background-color: #FFFFFF;                      /* white */
+  border:        none;                            /* Remove border */
   border-radius: 0;                               /* Remove border radius */
-  left: 50%;
-  margin: 0 -50% 0 0;                             /* top, right, bottom, left */
-  max-width: 90%;
+  margin:     0 -50% 0 0;                         /* top, right, bottom, left */
+  max-width:  90%;
   max-height: 90%;
-  padding: 0;
+  padding:    0;
   position: fixed;
-  top: 50%;
+  left: 50%;
+  top:  50%;
   -webkit-box-shadow: 0 0 20px #000000;           /* Chrome, Safari, newer Opera */
-          box-shadow: 0 0 20px #000000;
+          box-shadow: 0 0 20px #000000;           /* black */
   -webkit-transform: translate(-50%, -50%);       /* Chrome, Safari, newer Opera */
       -ms-transform: translate(-50%, -50%);       /* Internet Explorer, Microsoft Edge */
           transform: translate(-50%, -50%);
@@ -364,17 +366,17 @@ span.cssbox_full img {
 a.cssbox_close,
 a.cssbox_prev,
 a.cssbox_next {
-  color: #FFFFFF;
-  font-size: 36px;
-  position: fixed;
+  color:           #FFFFFF;                       /* white */
+  font-size:       36px;
   text-decoration: none;
+  position: fixed;
   visibility: hidden;
   z-index: 999;
 }
 
 a.cssbox_close {
   right: 1%
-  top: 1%;
+  top:   1%;
 }
 
 a.cssbox_close::after {
@@ -404,7 +406,7 @@ a:target ~ a.cssbox_next {
 }
 
 .cssbox_thumb {                                   /* Fixed size thumbnails that cover the frame without destortion */
-  width: 140px;
+  width:  140px;
   height: 140px;
   -o-object-fit: cover;                           /* older Opera */
      object-fit: cover;
